@@ -10,13 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Switch>
-      <Route path='/' exact component={Home}></Route>
-      <Route path="/about" component={About}></Route>
-      <Route path="/description" component={Description}></Route>
-      <Route path="/contact" component={Contact}></Route>
-      </Switch>
+
 
 
 
